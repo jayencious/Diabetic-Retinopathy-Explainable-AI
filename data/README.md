@@ -49,8 +49,8 @@ data/
 └── IDRiD-dataset/
      └── B. Disease Grading/
      	  ├── 1. Original Images/
-	  │    ├── a. Training Set/    				# Original IDRiD training images
-	  │    ├── b. Testing Set/					# Original IDRiD test images
+	      ├── a. Training Set/    				# Original IDRiD training images
+	      ├── b. Testing Set/					# Original IDRiD test images
     	  └── 2. Groundtruths/
 	       ├── a. IDRiD_Disease Grading_Training Labels.csv
 	       └── b. IDRiD_Disease Grading_Testing Labels.csv		# Ground truth testing labels
