@@ -56,3 +56,9 @@ data/
               └── b. IDRiD_Disease Grading_Testing Labels.csv		# Ground truth testing labels
 
 ```
+
+---
+
+## Preprocessing Warning
+- Do not manually apply any grayscale filters, contrast enhancement or CLAHE to these images before running the code.
+- The data ingestion pipeline utilizes Ben Graham's spatial colour normalization natively and expects raw RGB tensors so that it can dynamically neutralize background illumination and extract the colour-critical lesions (hemorrhages and hard exudates) during runtime.
