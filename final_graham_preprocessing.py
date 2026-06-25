@@ -25,7 +25,7 @@ from tqdm import tqdm
 # For IDRiD dataset
 CSV_PATH = "data/IDRID-dataset/B. Disease Grading/2. Groundtruths/a. IDRiD_Disease Grading_Training Labels.csv"
 ORIGINAL_IMAGES_PATH = "data/IDRID-dataset/B. Disease Grading/1. Original Images/a. Training Set"
-OUTPUT_IMAGES_PATH = "data/IDRID-dataset/test_graham"
+OUTPUT_IMAGES_PATH = "data/IDRID-dataset/train_graham"
 
 ID_COLUMN = "Image name"
 INPUT_EXTENSION = ".jpg"
