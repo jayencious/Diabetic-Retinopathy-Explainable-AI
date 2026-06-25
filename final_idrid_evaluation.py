@@ -10,12 +10,12 @@ import matplotlib.pyplot as plt
 
 mixed_precision.set_global_policy('mixed_float16')
 
-MODEL_PATH = "expert_checkpoints/new_xai_corrected_model.keras"
+MODEL_PATH = "expert_checkpoints/final_xai_corrected_model.keras"
 
 IDRID_CSV_PATH = "data/IDRID-dataset/B. Disease Grading/2. Groundtruths/a. IDRiD_Disease Grading_Training Labels.csv"
 IDRID_IMAGES_PATH = "data/IDRID-dataset/train_graham"
 
-BLIND_EVAL_APTOS_RESULTS_PATH = "new_evaluation_results"
+BLIND_EVAL_APTOS_RESULTS_PATH = "final_evaluation_results"
 
 os.makedirs(BLIND_EVAL_APTOS_RESULTS_PATH, exist_ok=True)
 
