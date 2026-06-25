@@ -91,6 +91,16 @@ streamlit run final_streamlit_app.py
 - This will open the dashboard in your default web browser at `http://localhost:8501`.
 - Upload any raw retinal fundus image to view the normalized input, ordinal predictions, ben-graham preprocessed image and the real-time XAI logic audit.
 
-## License and Academic Integrity
-- The project is developed as a research thesis.
-- The datasets utilized - EyePACS, APTOS 2019, IDRiD - are subject to their respective medical licensing agreements and are not redistributed within this repository.
+## License and Copyright
+
+**Software License**
+- The source code for this Diabetic Retinopathy Active XAI framework is licensed under the [MIT License](LICENSE).
+
+**Dataset Copyright and Acknowledgements**
+- The raw retinal images utilized to train and evaluate this architecture are the intellectual property of their respective creators and are subject to strict medical data-sharing agreements.
+* **EyePACS Data:** Copyright © California Healthcare Foundation, United States of America.
+* **APTOS 2019 Data:** Copyright © Aravind Eye Hospital, Madurai, Tamil Nadu, India.
+* **IDRiD Data:** Copyright © IEEE Dataport and the clinic of Nanded, Maharashtra, India.
+
+- These datasets are used purely for academic research purpose and are not redistributed within this repository.
+- These datasets should be downloaded from their legitimate sources and utilized.
