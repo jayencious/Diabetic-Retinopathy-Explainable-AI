@@ -9,9 +9,9 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 mixed_precision.set_global_policy('mixed_float16')
 
-MODEL_PATH = "expert_checkpoints/new_eyepacs_aptos_finetuned_model.keras"
-CORRECTED_MODEL_PATH = "expert_checkpoints/new_xai_corrected_model.keras"
-HALLUCINATION_REPORT = "new_xai_reports/hallucination_reports_ordinal.csv"
+MODEL_PATH = "expert_checkpoints/final_eyepacs_aptos_finetuned_model.keras"
+CORRECTED_MODEL_PATH = "expert_checkpoints/final_xai_corrected_model.keras"
+HALLUCINATION_REPORT = "final_xai_reports/hallucination_reports_ordinal.csv"
 APTOS_IMAGES_PATH = "data/APTOS_2019/train_graham"
 
 IMAGE_SIZE = 380
