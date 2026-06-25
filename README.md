@@ -3,7 +3,7 @@
 ![Python 3.8+](https://img.shields.io/badge/python-3.13+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Spatial%20Blending-green.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red.svg) 
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red.svg)
 
 ## Project Abstract
 - A domain-agnostic deep learning pipeline that transitions Explainable AI (XAI) from a passive observation tool into an **active logic-correction mechanism**.
@@ -55,13 +55,14 @@ Diabetic-Retinopathy-Explainable-AI/
 ├── final_master_evaluation.py						# Logic for generating the evaluation (validation) results of the model's performance on each dataset (foundational data, transfer learning or fine-tuning data and blind validation dataset)
 ├── final_model_training.py							# Foundation model training logic on the EyePACS dataset
 ├── final_ordinal_feedback_loop.py					# Logic for Ordinal Dual-XAI-Driven Feedback Loop Mechanism
+├── final_streamlit_app.py							# Streamlit offline clinical dashboard
 ├── requirements.txt								# Python dependencies utilized in the development of this project
 ```
 
 ---
 
 ## Installation and Usage
-- To ensure patient data privacy, this project is designed to run entirely offline on your local machine.
+- To ensure patient data privacy, this diagnostic dashboard is designed to run entirely offline on your local machine.
 
 1. Clone the Repository
 ```bash
@@ -78,8 +79,17 @@ pip install -r requirements.txt
 
 3. Download the Pre-Trained Weights
 - Due to GitHub file size constraints, the final `.keras` model weights are hosted externally.
-- a) Download the trained model files from here: [Google Drive Link](https://drive.google.com/drive/folders/1h_upxRxm6BOyh1fnH9H4dEyeyB_lsPOP?usp=sharing)
-- b) Place the files in the folder into the `/expert_checkpoints/` directory.
+a) Download the trained model files from here: [Google Drive Link](https://drive.google.com/drive/folders/1h_upxRxm6BOyh1fnH9H4dEyeyB_lsPOP?usp=sharing)
+b) Place the files in the folder into the `/expert_checkpoints/` directory.
+
+4. Run the Clinical Dashboard
+- Launch the interactive offline Streamlit interface:
+```bash
+streamlit run final_streamlit_app.py
+```
+
+- This will open the dashboard in your default web browser at `http://localhost:8501`.
+- Upload any raw retinal fundus image to view the normalized input, ordinal predictions, ben-graham preprocessed image and the real-time XAI logic audit.
 
 ## License and Academic Integrity
 - The project is developed as a research thesis.
