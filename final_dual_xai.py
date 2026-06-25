@@ -12,11 +12,11 @@ from sklearn.model_selection import train_test_split
 
 mixed_precision.set_global_policy('mixed_float16')
 
-MODEL_PATH = "expert_checkpoints/new_eyepacs_aptos_finetuned_model.keras"
+MODEL_PATH = "expert_checkpoints/final_eyepacs_aptos_finetuned_model.keras"
 APTOS_CSV_PATH = "data/APTOS_2019/train.csv"
 APTOS_IMAGES_PATH = "data/APTOS_2019/train_graham"
-NEW_XAI_REPORTS_PATH = "new_xai_reports"
-NEW_XAI_VISUALS_PATH = os.path.join(NEW_XAI_REPORTS_PATH, "new_visualization")
+NEW_XAI_REPORTS_PATH = "final_xai_reports"
+NEW_XAI_VISUALS_PATH = os.path.join(NEW_XAI_REPORTS_PATH, "final_visualization")
 
 os.makedirs(NEW_XAI_VISUALS_PATH, exist_ok=True)
 
