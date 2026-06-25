@@ -56,7 +56,7 @@ Diabetic-Retinopathy-Explainable-AI/
 ├── final_model_training.py							# Foundation model training logic on the EyePACS dataset
 ├── final_ordinal_feedback_loop.py					# Logic for Ordinal Dual-XAI-Driven Feedback Loop Mechanism
 ├── final_streamlit_app.py							# Streamlit offline clinical dashboard
-├── requirements.txt								# Python dependencies utilized in the development of this project
+└── requirements.txt								# Python dependencies utilized in the development of this project
 ```
 
 ---
