@@ -3,7 +3,7 @@
 ![Python 3.8+](https://img.shields.io/badge/python-3.13+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Spatial%20Blending-green.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red.svg) # isko baad mei daalunga
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red.svg) 
 
 ## Project Abstract
 - A domain-agnostic deep learning pipeline that transitions Explainable AI (XAI) from a passive observation tool into an **active logic-correction mechanism**.
