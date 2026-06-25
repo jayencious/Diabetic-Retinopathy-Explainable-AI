@@ -19,8 +19,8 @@ mixed_precision.set_global_policy('mixed_float16')
 
 APTOS_CSV_PATH = "data/APTOS_2019/train.csv"
 APTOS_IMAGES_PATH = "data/APTOS_2019/train_graham"
-FOUNDATIONAL_MODEL = "expert_checkpoints/new_eyepacs_foundation_model.keras"
-FINETUNED_MODEL = "expert_checkpoints/new_eyepacs_aptos_finetuned_model.keras"
+FOUNDATIONAL_MODEL = "expert_checkpoints/final_eyepacs_foundation_model.keras"
+FINETUNED_MODEL = "expert_checkpoints/final_eyepacs_aptos_finetuned_model.keras"
 
 IMAGE_SIZE = 380
 BATCH_SIZE = 16
