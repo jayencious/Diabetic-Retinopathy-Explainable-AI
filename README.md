@@ -78,8 +78,8 @@ pip install -r requirements.txt
 
 3. Download the Pre-Trained Weights
 - Due to GitHub file size constraints, the final `.keras` model weights are hosted externally.
-a) Download the trained model files from here: [Google Drive Link](https://drive.google.com/drive/folders/1h_upxRxm6BOyh1fnH9H4dEyeyB_lsPOP?usp=sharing)
-b) Place the files in the folder into the `/expert_checkpoints/` directory.
+- a) Download the trained model files from here: [Google Drive Link](https://drive.google.com/drive/folders/1h_upxRxm6BOyh1fnH9H4dEyeyB_lsPOP?usp=sharing)
+- b) Place the files in the folder into the `/expert_checkpoints/` directory.
 
 ## License and Academic Integrity
 - The project is developed as a research thesis.
