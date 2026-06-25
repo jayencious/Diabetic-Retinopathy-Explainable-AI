@@ -19,7 +19,7 @@ mixed_precision.set_global_policy('mixed_float16')
 
 CSV_PATH = "data/EyePACS/trainLabels.csv"
 IMAGES_PATH = "data/EyePACS/train_graham"
-MODEL_SAVE_PATH = "expert_checkpoints/new_eyepacs_foundation_model.keras"
+MODEL_SAVE_PATH = "expert_checkpoints/final_eyepacs_foundation_model.keras"
 
 os.makedirs('expert_checkpoints', exist_ok=True)
 
