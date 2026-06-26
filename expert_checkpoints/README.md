@@ -28,8 +28,8 @@
 ```text
 expert_checkpoints/
 │
-├── README.md						# This file
-├── final_eyepacs_aptos_finetuned_model.keras		# Downloaded Weights file finetuned on the APTOS 2019 dataset after being initially trained on the foundation EyePACS dataset
-├── final_eyepacs_foundation_model.keras		# Downloaded foundational weights file (Primary requirement)
-└──final_xai_corrected_model.keras			# Downloaded weights file corrected by using dual-xai feedback loop mechanism
+├── README.md						                            # This file
+├── final_eyepacs_aptos_finetuned_model.keras		    # Downloaded Weights file finetuned on the APTOS 2019 dataset after being initially trained on the foundation EyePACS dataset
+├── final_eyepacs_foundation_model.keras		        # Downloaded foundational weights file (Primary requirement)
+└──final_xai_corrected_model.keras			            # Downloaded weights file corrected by using dual-xai feedback loop mechanism
 ```
